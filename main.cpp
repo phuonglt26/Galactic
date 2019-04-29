@@ -134,10 +134,11 @@ void NewGame() {
 			}
 		}
 		//tao thien thach
-		if (delay > 0) delay--;
+		if (delay > 0) delay--; 
 		else {
 			int n = rand() % 5 + 1; // chỉnh mỗi lần tạo đá ra mấy viên
 			while (n--)
+
 			{
 				delay = METEOR_FREQ;
 				Meteor* newMeteor = new Meteor(gRenderer, "meteor.png", rand() % 15 + 1); //  chỉnh tốc dộ của đá bay

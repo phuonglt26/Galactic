@@ -18,6 +18,6 @@ Bullet::~Bullet()
 
 void Bullet::update()
 {
-	Rect.y -= 20;
+	Rect.y -= 10;
 }
                                                                                                                                                                                                                                           

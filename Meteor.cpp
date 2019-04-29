@@ -1,4 +1,4 @@
-#include "Meteor.h"
+﻿#include "Meteor.h"
 #include "spacecraft.h"
 #include "Bullet.h"
 
@@ -49,8 +49,8 @@ void Meteor::Update(std::vector<Bullet*>* Ammo, Score& score)
 			Explosion.setRect(Rect);
 			Explosion.Render();
 			SDL_RenderPresent(des);
-			SDL_Delay(50);
-			Rect.y = -100; // lam vien da bay ra ngoai man hinh
+			SDL_Delay(10);
+			Rect.y = -100; // lam vien da bay ra ngoai man hinh xong quay lại
 			
 		}
 	}
